@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="landscape" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
@@ -14,18 +14,18 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GreenAndRed" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="gGM-g9-3wS">
-                                <rect key="frame" x="62" y="11" width="772" height="393"/>
+                                <rect key="frame" x="18" y="50" width="374" height="818"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jWR-VI-ILj">
-                                        <rect key="frame" x="0.0" y="0.0" width="772" height="192"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="399.5"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eB2-tI-8BM">
-                                        <rect key="frame" x="0.0" y="200" width="772" height="193"/>
+                                        <rect key="frame" x="0.0" y="407.5" width="374" height="410.5"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                     </view>
                                 </subviews>
@@ -39,17 +39,17 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gGM-g9-3wS" secondAttribute="bottom" constant="-11" id="3Hz-4q-pDO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gGM-g9-3wS" secondAttribute="bottom" constant="-6" id="3Hz-4q-pDO"/>
                             <constraint firstItem="gGM-g9-3wS" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="-2" id="YJv-by-FeY"/>
                             <constraint firstItem="gGM-g9-3wS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="18" id="al2-Ka-fzk"/>
-                            <constraint firstItem="gGM-g9-3wS" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="11" id="l8Z-jQ-1f7"/>
-                            <constraint firstItem="gGM-g9-3wS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="11" id="pql-Xv-bdb"/>
+                            <constraint firstItem="gGM-g9-3wS" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="6" id="l8Z-jQ-1f7"/>
+                            <constraint firstItem="gGM-g9-3wS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="6" id="pql-Xv-bdb"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-666.29464285714278" y="-2643.4782608695655"/>
+            <point key="canvasLocation" x="-836" y="-3439"/>
         </scene>
     </scenes>
     <resources>
