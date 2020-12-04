@@ -17,39 +17,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="gGM-g9-3wS">
-                                <rect key="frame" x="18" y="50" width="374" height="818"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jWR-VI-ILj">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="399.5"/>
-                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eB2-tI-8BM">
-                                        <rect key="frame" x="0.0" y="407.5" width="374" height="410.5"/>
-                                        <color key="backgroundColor" systemColor="systemRedColor"/>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="jWR-VI-ILj" secondAttribute="width" id="Eor-xk-1fm"/>
-                                    <constraint firstAttribute="width" secondItem="eB2-tI-8BM" secondAttribute="width" id="KCn-48-MEM"/>
-                                    <constraint firstAttribute="height" secondItem="jWR-VI-ILj" secondAttribute="height" multiplier="2.04688" id="dIm-Mp-HZx"/>
-                                </constraints>
-                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jWR-VI-ILj">
+                                <rect key="frame" x="16" y="60" width="382" height="395.5"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eB2-tI-8BM">
+                                <rect key="frame" x="16" y="469.5" width="382" height="376.5"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gGM-g9-3wS" secondAttribute="bottom" constant="-6" id="3Hz-4q-pDO"/>
-                            <constraint firstItem="gGM-g9-3wS" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="-2" id="YJv-by-FeY"/>
-                            <constraint firstItem="gGM-g9-3wS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="18" id="al2-Ka-fzk"/>
-                            <constraint firstItem="gGM-g9-3wS" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="6" id="l8Z-jQ-1f7"/>
-                            <constraint firstItem="gGM-g9-3wS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="6" id="pql-Xv-bdb"/>
+                            <constraint firstItem="eB2-tI-8BM" firstAttribute="top" secondItem="jWR-VI-ILj" secondAttribute="bottom" constant="14" id="4mJ-hp-n13"/>
+                            <constraint firstItem="eB2-tI-8BM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="5Nw-EC-1r2"/>
+                            <constraint firstItem="jWR-VI-ILj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="5Z7-lv-ZzM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eB2-tI-8BM" secondAttribute="trailing" constant="16" id="79u-VL-cdt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jWR-VI-ILj" secondAttribute="trailing" constant="16" id="Dzg-WL-Wak"/>
+                            <constraint firstItem="eB2-tI-8BM" firstAttribute="height" secondItem="jWR-VI-ILj" secondAttribute="height" multiplier="0.952681" id="WpO-L4-Cse"/>
+                            <constraint firstItem="jWR-VI-ILj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Wpq-Jq-JOU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eB2-tI-8BM" secondAttribute="bottom" constant="16" id="qG7-g0-h9z"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-836" y="-3439"/>
+            <point key="canvasLocation" x="-773" y="-3620"/>
         </scene>
     </scenes>
     <resources>
